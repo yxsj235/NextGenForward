@@ -200,7 +200,7 @@ const DEFAULT_SPAM_RULES = {
   allow_regexes: [],
   ai: {
     enabled: true,
-    model: "@cf/meta/llama-3.1-8b-instruct-fast",
+    model: "@cf/meta/llama-3.2-1b-instruct",
     // v1.6.1: AI 阈值默认更激进（更愿意拦截）
     threshold: 0.65
   }
